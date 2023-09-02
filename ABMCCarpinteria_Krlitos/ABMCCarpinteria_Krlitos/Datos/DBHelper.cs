@@ -11,12 +11,13 @@ namespace ABMCCarpinteria_Krlitos.Datos
 {
     public class DBHelper
     {
-        private string strConexion = @"Data Source=186.137.14.244;Initial Catalog=Carpinteria_2023;User ID=;Password=";
+        private string strConexion = @"Data Source=;Initial Catalog=Carpinteria_2023;User ID=;Password=";
+        private string strConexionCasa = @"Data Source=pckrlos;Initial Catalog=Carpinteria_2023;Integrated Security=True";
         private SqlConnection conexion; 
         private SqlCommand comando; 
         public DBHelper()
         {
-            conexion = new SqlConnection(strConexion);
+            conexion = new SqlConnection(strConexionCasa);
             comando = new SqlCommand();
         }
 
@@ -47,12 +48,7 @@ namespace ABMCCarpinteria_Krlitos.Datos
             Desconectar();
             return tabla;
         }
-        private void Conectar()
-        {
-            conexion.Open();
-            comando.Connection = conexion;
-            comando.CommandType = CommandType.StoredProcedure;
-        }
+        
         public DataTable Consultar(string nombreSP)
         {
             Conectar();
@@ -83,6 +79,13 @@ namespace ABMCCarpinteria_Krlitos.Datos
             p.Direction = ParameterDirection.Output;
             return p;
         }
+        private void Conectar()
+        {
+            conexion.Open();
+            comando.Connection = conexion;
+            comando.CommandType = CommandType.StoredProcedure;
+        }
+
         public bool ConfirmarPresupuesto(Presupuesto p)
         {
             bool confirm = true;
@@ -90,11 +93,14 @@ namespace ABMCCarpinteria_Krlitos.Datos
 
             try
             {
-                Conectar();
-                t=conexion.BeginTransaction(); //Esto se hace para poder ir por pasos y en caso de que algo falle, hacer un rollback en el catch
+                conexion.Open();
+                SqlCommand comando = new SqlCommand();
+                //Se inicia la conexion bajo transaccion
+                t = conexion.BeginTransaction();
+                comando.Connection = conexion;
                 comando.Transaction = t;
+                comando.CommandType = CommandType.StoredProcedure;
                 comando.CommandText = "SP_INSERTAR_MAESTRO";
-
 
                 comando.Parameters.AddWithValue("@cliente", p.Cliente);
                 comando.Parameters.AddWithValue("@dto", p.Descuento);
@@ -112,7 +118,7 @@ namespace ABMCCarpinteria_Krlitos.Datos
                 SqlCommand cmdDetalle;//p es presupuesto
                 foreach (DetallePresupuesto dp in p.Detalles)
                 {
-                    cmdDetalle = new SqlCommand("SP_INSERTAR_DETALLE", conexion);
+                    cmdDetalle = new SqlCommand("SP_INSERTAR_DETALLE", conexion, t);
                     cmdDetalle.CommandType = CommandType.StoredProcedure;
                     cmdDetalle.Parameters.AddWithValue("@presupuesto_nro", presupuestoNro);
                     cmdDetalle.Parameters.AddWithValue("@detalle", detalleNro);

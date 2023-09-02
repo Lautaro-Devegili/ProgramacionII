@@ -12,3 +12,17 @@ C:\Users\alumno\source\repos\repo_progIIKrlitos\ProgII\ABMCCarpinteria_Krlitos\A
 C:\Users\alumno\source\repos\repo_progIIKrlitos\ProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.pdb
 C:\Users\alumno\source\repos\repo_progIIKrlitos\ProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.Entidades.FrmConsultarPresupuestos.resources
 C:\Users\alumno\source\repos\repo_progIIKrlitos\ProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.Entidades.FrmDetallePresupuesto.resources
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\bin\Debug\ABMCCarpinteria_Krlitos.exe.config
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\bin\Debug\ABMCCarpinteria_Krlitos.exe
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\bin\Debug\ABMCCarpinteria_Krlitos.pdb
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.csproj.AssemblyReference.cache
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.Entidades.FrmConsultarPresupuestos.resources
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.Entidades.FrmDetallePresupuesto.resources
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.Entidades.frmNuevoPresupuesto.resources
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.Entidades.frmPrincipal.resources
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.Properties.Resources.resources
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.csproj.GenerateResource.cache
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.csproj.CoreCompileInputs.cache
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.exe
+C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.pdb
