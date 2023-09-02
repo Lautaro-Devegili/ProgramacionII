@@ -16,7 +16,6 @@ C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpint
 C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\bin\Debug\ABMCCarpinteria_Krlitos.exe
 C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\bin\Debug\ABMCCarpinteria_Krlitos.pdb
 C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.csproj.AssemblyReference.cache
-C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.csproj.SuggestedBindingRedirects.cache
 C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.Entidades.FrmConsultarPresupuestos.resources
 C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.Entidades.FrmDetallePresupuesto.resources
 C:\Users\Krlitos\source\repos\CasarepoProgII\ABMCCarpinteria_Krlitos\ABMCCarpinteria_Krlitos\obj\Debug\ABMCCarpinteria_Krlitos.Entidades.frmNuevoPresupuesto.resources

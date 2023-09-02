@@ -31,12 +31,21 @@ namespace ABMCCarpinteria_Krlitos.Entidades
 
         private void dgvPresupuestos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dgvPresupuestos.CurrentCell.ColumnIndex==4)
+            //I want to open a new form when I click on a cell in a column
+            if (e.ColumnIndex == 4)
             {
                 int nro = Convert.ToInt32(dgvPresupuestos.CurrentRow.Cells["ColNro"].Value);
                 FrmDetallePresupuesto detalle = new FrmDetallePresupuesto(nro);
                 detalle.ShowDialog();
+
             }
+            /*if (dgvPresupuestos.CurrentCell.ColumnIndex==4)
+            {
+                int nro = Convert.ToInt32(dgvPresupuestos.CurrentRow.Cells["ColNro"].Value);
+                FrmDetallePresupuesto detalle = new FrmDetallePresupuesto(nro);
+                detalle.ShowDialog();
+                
+            }*/
         }
 
         private void btnConsultar_Click(object sender, EventArgs e)
