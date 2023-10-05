@@ -1,0 +1,11 @@
+C:\Users\Krlitos\source\repos\practicaParcial\practicaParcial\bin\Debug\practicaParcial.exe.config
+C:\Users\Krlitos\source\repos\practicaParcial\practicaParcial\bin\Debug\practicaParcial.exe
+C:\Users\Krlitos\source\repos\practicaParcial\practicaParcial\bin\Debug\practicaParcial.pdb
+C:\Users\Krlitos\source\repos\practicaParcial\practicaParcial\obj\Debug\practicaParcial.csproj.AssemblyReference.cache
+C:\Users\Krlitos\source\repos\practicaParcial\practicaParcial\obj\Debug\practicaParcial.frmMenu.resources
+C:\Users\Krlitos\source\repos\practicaParcial\practicaParcial\obj\Debug\practicaParcial.frmRegistrarOrden.resources
+C:\Users\Krlitos\source\repos\practicaParcial\practicaParcial\obj\Debug\practicaParcial.Properties.Resources.resources
+C:\Users\Krlitos\source\repos\practicaParcial\practicaParcial\obj\Debug\practicaParcial.csproj.GenerateResource.cache
+C:\Users\Krlitos\source\repos\practicaParcial\practicaParcial\obj\Debug\practicaParcial.csproj.CoreCompileInputs.cache
+C:\Users\Krlitos\source\repos\practicaParcial\practicaParcial\obj\Debug\practicaParcial.exe
+C:\Users\Krlitos\source\repos\practicaParcial\practicaParcial\obj\Debug\practicaParcial.pdb
