@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Presentacion\Cine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\Compras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\ConsultarCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\ConsultarFunciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\CustomMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\frmCompraDetalles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\frmConsultarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\frmDetallesCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\frmEditarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\frmModificarFunciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\frmNuevoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\frmPeliculasTaquilleras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\Funciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\NuevaCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\NuevaFuncion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Presentacion\DSAfuera.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>
